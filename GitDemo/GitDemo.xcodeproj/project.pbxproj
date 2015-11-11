@@ -14,6 +14,7 @@
 		BCE8EA921BF3210400158BD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE8EA911BF3210400158BD0 /* Images.xcassets */; };
 		BCE8EA951BF3210400158BD0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCE8EA931BF3210400158BD0 /* LaunchScreen.xib */; };
 		BCE8EAA11BF3210400158BD0 /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE8EAA01BF3210400158BD0 /* GitDemoTests.m */; };
+		BCE8EAAD1BF3290800158BD0 /* ViewControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE8EAAC1BF3290800158BD0 /* ViewControllerA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		BCE8EA9A1BF3210400158BD0 /* GitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE8EA9F1BF3210400158BD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCE8EAA01BF3210400158BD0 /* GitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoTests.m; sourceTree = "<group>"; };
+		BCE8EAAB1BF3290800158BD0 /* ViewControllerA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerA.h; sourceTree = "<group>"; };
+		BCE8EAAC1BF3290800158BD0 /* ViewControllerA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerA.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		BCE8EA831BF3210400158BD0 /* GitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BCE8EAAA1BF328D200158BD0 /* A */,
 				BCE8EA881BF3210400158BD0 /* AppDelegate.h */,
 				BCE8EA891BF3210400158BD0 /* AppDelegate.m */,
 				BCE8EA8B1BF3210400158BD0 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				BCE8EA9F1BF3210400158BD0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCE8EAAA1BF328D200158BD0 /* A */ = {
+			isa = PBXGroup;
+			children = (
+				BCE8EAAB1BF3290800158BD0 /* ViewControllerA.h */,
+				BCE8EAAC1BF3290800158BD0 /* ViewControllerA.m */,
+			);
+			name = A;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCE8EAAD1BF3290800158BD0 /* ViewControllerA.m in Sources */,
 				BCE8EA8D1BF3210400158BD0 /* ViewController.m in Sources */,
 				BCE8EA8A1BF3210400158BD0 /* AppDelegate.m in Sources */,
 				BCE8EA871BF3210400158BD0 /* main.m in Sources */,
